@@ -14,20 +14,20 @@
     }
   ],
   "contact": {
-    "homepage": "https://github.com/John-Paul-R/fabric-template-mod",
-    "sources": "https://github.com/John-Paul-R/fabric-template-mod",
-    "issues": "https://github.com/John-Paul-R/fabric-template-mod/issues"
+    "homepage": "https://github.com/John-Paul-R/whisper-roulette",
+    "sources": "https://github.com/John-Paul-R/whisper-roulette",
+    "issues": "https://github.com/John-Paul-R/whisper-roulette/issues"
   },
   "license": "MIT",
-  "icon": "assets/modid/icon.jpg",
+  "icon": "assets/whisperroulette/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.jpcode.modid.Example"
+      "dev.jpcode.whisperroulette.WhisperRoulette"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "whisperroulette.mixins.json"
   ],
   "depends": {
     "java": ">=16",
@@ -36,7 +36,7 @@
     "fabric": "*"
   },
   "recommends": {
-    "modid-sub": "*"
+    "whisperroulette-sub": "*"
   },
   "suggests": {
     "modmenu": "*"
